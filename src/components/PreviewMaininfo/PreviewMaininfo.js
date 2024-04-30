@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './PreviewMainfo.css';
 
 function PreviewMainfo ({ imageSrc, text}) {

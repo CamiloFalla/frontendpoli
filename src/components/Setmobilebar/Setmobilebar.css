@@ -1,23 +1,23 @@
 .mobilebar-container {
-    display: none; /* Inicialmente oculto */
+    display: none; 
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    height: 30px; /* Altura fija */
-    padding: 10px 20px 10 20px; /* Espacio a los lados dentro del cuadro */
+    height: 30px; 
+    padding: 10px 20px 10 20px; 
     margin: 5px;
 }
 
 @media (max-width:640px) {
     .mobilebar-container {
-        display: flex; /* Se muestra como flex solo en pantallas pequeñas */
+        display: flex; 
     }
 }
 
 .icon-home {
     display: flex;
-    align-items: center; /* Centra verticalmente el texto e icono */
-    color: black; /* Color del texto */
+    align-items: center; 
+    color: black; 
     margin: 5px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .icon-home span {
-    margin-left: 5px; /* Espacio entre el icono y el texto */
+    margin-left: 5px; 
 }
 
 .notification-circle {
@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    border-radius: 50%; /* Hace que el fondo del icono sea circular */
-    width: 20px; /* Ancho del círculo */
-    height: 20px; /* Altura del círculo */
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px; 
 }

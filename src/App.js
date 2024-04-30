@@ -16,7 +16,7 @@ const Signupform = lazy(() => import('./components/Signupform/Signupform'));
 function App() {
   return (
    
-    <Router>
+    <Router basename="/frontendpoli">
       {/* Suspense wraps lazy-loaded components providing a fallback UI during loading */}
       <Suspense fallback={<div>Loading...</div>}>
         {/* Main div wrapper with a className for styling purposes */}

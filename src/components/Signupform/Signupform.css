@@ -68,11 +68,11 @@ h1, h3, h4 {
 
 .login-link {
     color: rgb(76, 76, 244);
-    text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
+    text-decoration: none; 
     transition: color 0.3s ease; 
 }
 
 .login-link:hover {
-    color: #ffffff; /* Cambia el color al pasar el mouse */
-    text-decoration: underline; /* Añade un subrayado al pasar el mouse */
+    color: #ffffff; 
+    text-decoration: underline; 
 }

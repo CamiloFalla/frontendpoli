@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './BottonfocusMoney.css';
 import { ReactComponent as IconSVG } from './../../images/icons/money1.svg';
 
