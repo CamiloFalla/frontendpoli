@@ -1,0 +1,33 @@
+/* BottonfocusMoney.css */
+.button-focus-container {
+    display: flex;
+    align-items: center;  /* Alinea verticalmente el contenido del botón */
+    justify-content: center; /* Centra horizontalmente el contenido dentro del botón */
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid rgb(202, 197, 197); /* Remueve los bordes */
+    cursor: pointer;
+    min-width: 250px; /* Establece un ancho mínimo */
+    padding: 10px 20px; 
+    
+}
+
+.buttonfocus-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Esto separa el icono y el texto */
+    width: 100%;
+    
+}
+
+.icon-container svg { /* Asegúrate de apuntar a svg y no a img */
+    fill: yellow; /* Esto aplicará correctamente si tu SVG utiliza currentColor */
+    width: 30px; /* Controla el ancho del SVG */
+    height: 30px; /* Controla la altura del SVG */
+}
+
+.buttonfocus-text-container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; /* Texto en negrita */
+    color: black; /* Color de texto */
+    margin-left: 10px; /* Espacio entre imagen y texto */
+}

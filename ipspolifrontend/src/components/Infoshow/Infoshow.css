@@ -1,0 +1,21 @@
+.image-button {
+    width: 200px; /* Ajusta según tus necesidades */
+    height: 100px; /* Ajusta según tus necesidades */
+    border: gray;
+    border-radius: 5%;
+    color: white; /* Asegúrate de que el texto sea legible */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+.button-text {
+    font-size: 20px; /* Ajusta según tus necesidades */
+    font-weight: bold;
+}

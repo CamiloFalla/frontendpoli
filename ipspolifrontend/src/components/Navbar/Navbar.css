@@ -1,0 +1,83 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000;
+    --dark: #232830;
+    --text-input-field: #F7F7F7; 
+    --very-light-pink: #C7C7C7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300; /* Un valor de peso elegido entre 300 y 700 */
+    font-style: normal;
+}
+.navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--very-light-pink);
+    justify-content: space-between;
+}
+.navbar-left, .navbar-right {
+    display: flex;
+}
+.figure .menu {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+}
+.navbar-left ul, .navbar-right ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.navbar-left {
+
+}
+.navbar-left a, .navbar-right a {
+    text-decoration: none;
+    color: var(--very-light-pink);
+    font-weight: bold;
+    font-size: var(--sm);
+    border-radius: 4px;
+    padding: 3px;
+    margin: 0px 8px 0px 8px;
+    display: inline-block;
+    border: 1px solid var(--white);
+}
+.navbar-left a:hover, .navbar-right a:hover {
+    border: 1px solid var(--hospital-green);
+    border-radius: 4px;
+    padding: 3px;
+    color: var(--hospital-green);
+}
+.menu {
+    display: none;
+}
+@media (max-width:640px) {
+    .menu {
+        display: block;
+    }
+    .navbar-left {
+        display: none;
+    }
+    .navbar-right {
+        display: none;
+    }
+}

@@ -1,0 +1,58 @@
+/* Home.css */
+.homepart {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos verticalmente para móviles */
+    padding: 0;
+    width: 100%;
+  }
+  .navbar-home {
+    background-color: #0185B6;
+    width: 100%;
+    margin: 0;
+    padding: 50px 0 0 0;
+    top: 0;
+    color: white;
+  }
+  .navbar-home-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    
+  }
+  h1 {
+    text-align: left;
+  }
+  .logo-navbar {
+    height: 10vmin;
+    pointer-events: none;
+    border-radius: 100%;
+  }
+  .home-infoshow {
+    display: flex;
+    justify-content: center; /* Centra los elementos */
+    align-items: center;
+    padding: 0 20px;
+  }
+  .home-infoshow > * {
+    margin: 0 15px;
+  }
+  .home-buttonfocus {
+    display: flex;
+    flex-direction: column;  /* Alinea los elementos en una columna */
+    align-items: center;     /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente (opcional si tienes altura definida) */
+    gap: 10px;               /* Espacio entre los botones */
+  }
+  
+  @media (min-width: 768px) {
+    .homepart {
+      align-items: flex-start; /* Alinea elementos al inicio para pantallas más grandes */
+    }
+  
+    h1 {
+      text-align: left; /* Alinear el texto a la izquierda en pantallas grandes */
+    }
+  }
+  

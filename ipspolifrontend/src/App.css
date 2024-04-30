@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
+  border-radius: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0185B6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #328924;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.buttonStyle {
+  font-family: 'Roboto', sans-serif; /* Usa la fuente Roboto */
+  font-size: 16px; /* Tamaño de letra 16px */
+  
+  background-color: #328924; /* Fondo verde */
+  color: white; /* Texto en color blanco */
+  border: none; /* Sin bordes */
+  padding: 20px 40px; /* Padding para dar forma elíptica */
+  border-radius: 100%; /* Bordes redondeados para forma elíptica */
+  cursor: pointer; /* Cambia el cursor a una mano cuando pasas sobre el botón */
+  outline: none; /* Elimina el contorno que podría aparecer al hacer clic */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.buttonStyle:hover {
+  background-color: #005700; /* Un verde más oscuro al pasar el mouse */
+}
+
+.App-p {
+  font-family: 'Roboto', sans-serif;
+}
+.App-h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.entry-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura de la ventana del navegador */
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+form {
+  margin: 20px 0; /* Espaciado alrededor del formulario para no pegarse a otros elementos */
+}
+
+input, button {
+  margin: 10px 0; /* Espaciado entre los elementos del formulario */
 }

@@ -1,0 +1,43 @@
+
+
+/* Entry.css */
+.entry-container {
+  background-color: #0185B6;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  width: 100%; /* Asegura que el contenedor use todo el ancho disponible */
+  text-align: center;
+  min-height: 100vh;
+  
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.entry-container form {
+  display: flex;
+  flex-direction: column;
+  width: 90%; /* Ajusta esto según el diseño deseado */
+  max-width: 200px; /* Asegura que el formulario no se vuelva demasiado ancho en pantallas grandes */
+}
+
+.entry-container label,
+.entry-container input,
+.entry-container button {
+  margin-bottom: 20px; /* Espacio debajo de cada elemento del formulario */
+}
+.initsession {
+    font-family: 'Roboto', sans-serif; /* Usa la fuente Roboto */
+    font-size: 16px; /* Tamaño de letra 16px */
+    background-color: #328924; /* Fondo verde */
+    color: white; /* Texto en color blanco */
+    border: none; /* Sin bordes */
+    padding: 10px 30px; /* Padding para dar forma elíptica */
+    border-radius: 20%; /* Bordes redondeados para forma elíptica */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas sobre el botón */
+    outline: none; /* Elimina el contorno que podría aparecer al hacer clic */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
