@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontendpoli/static/css/main.e3451c7e.css",
-    "main.js": "/frontendpoli/static/js/main.45d02da4.js",
+    "main.js": "/frontendpoli/static/js/main.5caf2789.js",
     "static/css/918.6ab6be31.chunk.css": "/frontendpoli/static/css/918.6ab6be31.chunk.css",
     "static/js/918.33c5a5fd.chunk.js": "/frontendpoli/static/js/918.33c5a5fd.chunk.js",
     "static/js/370.512d0fb3.chunk.js": "/frontendpoli/static/js/370.512d0fb3.chunk.js",
@@ -27,7 +27,7 @@
     "static/media/facebooklogo.svg": "/frontendpoli/static/media/facebooklogo.5bd5cce569bdfd9a275788efbbdf17e8.svg",
     "static/media/menu.svg": "/frontendpoli/static/media/menu.74e8cff8ab28cd26daae85342f3a6d5d.svg",
     "main.e3451c7e.css.map": "/frontendpoli/static/css/main.e3451c7e.css.map",
-    "main.45d02da4.js.map": "/frontendpoli/static/js/main.45d02da4.js.map",
+    "main.5caf2789.js.map": "/frontendpoli/static/js/main.5caf2789.js.map",
     "918.6ab6be31.chunk.css.map": "/frontendpoli/static/css/918.6ab6be31.chunk.css.map",
     "918.33c5a5fd.chunk.js.map": "/frontendpoli/static/js/918.33c5a5fd.chunk.js.map",
     "370.512d0fb3.chunk.js.map": "/frontendpoli/static/js/370.512d0fb3.chunk.js.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.e3451c7e.css",
-    "static/js/main.45d02da4.js"
+    "static/js/main.5caf2789.js"
   ]
 }
