@@ -47,9 +47,9 @@ function Home() {
         <BottonfocusMoney
           text="Metodos de pago"
         />
-        <Footer />
+        
       </div>
-      
+      <Footer />
       
     </div>
   );

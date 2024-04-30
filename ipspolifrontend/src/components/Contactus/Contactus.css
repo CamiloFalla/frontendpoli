@@ -1,0 +1,15 @@
+.contactus-container {
+    background-color: #0185B6;
+}
+.bodycontact {
+    background-color: #0185B6;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 300px;
+}

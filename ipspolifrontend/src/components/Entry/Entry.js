@@ -42,7 +42,7 @@ function Entry() {
           <Signbutton />
         </form>
         <p>
-        ¿Aún no tienes cuenta? <a href="URL_DE_REGISTRO">Regístrate</a>
+        ¿Aún no tienes cuenta? <a href="Signupform">Regístrate</a>
         </p>
         <p>
         <a href="URL_DE_REGISTRO">¿Olvidaste tu contraseña?</a>

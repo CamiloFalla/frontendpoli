@@ -5,29 +5,34 @@
     align-items: center; /* Centra los elementos verticalmente para móviles */
     padding: 0;
     width: 100%;
+    padding-bottom: 70px;
   }
   .navbar-home {
     background-color: #0185B6;
     width: 100%;
     margin: 0;
-    padding: 50px 0 0 0;
+    padding: 0 0 0 0;
     top: 0;
     color: white;
   }
   .navbar-home-title {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 20px 0 0 0;
     padding: 10px;
     
   }
   h1 {
     text-align: left;
+    margin: 0;
   }
   .logo-navbar {
     height: 10vmin;
     pointer-events: none;
     border-radius: 100%;
+    align-self: center;
+    margin-top: -20px;
+
   }
   .home-infoshow {
     display: flex;
@@ -46,13 +51,14 @@
     gap: 10px;               /* Espacio entre los botones */
   }
   
-  @media (min-width: 768px) {
-    .homepart {
-      align-items: flex-start; /* Alinea elementos al inicio para pantallas más grandes */
-    }
   
-    h1 {
-      text-align: left; /* Alinear el texto a la izquierda en pantallas grandes */
-    }
-  }
   
+  @media (max-width:640px) {
+    .header {
+        display: none;
+    }
+    .navbar-home {
+      padding: 50px 0 0 0;
+    }
+    
+}
