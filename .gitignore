@@ -1,0 +1,29 @@
+# Dependencias
+/node_modules
+
+# Archivos de configuración del IDE y editor
+/.vscode
+/.idea
+/*.sublime-workspace
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación y logs
+/build
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Directorios de caché (descomentar si se presentan problemas como los descritos)
+# .cache
