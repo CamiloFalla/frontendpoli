@@ -12,6 +12,7 @@ const Begin = lazy(() => import('./components/Begin'));
 const Entry = lazy(() => import('./components/Entry/Entry'));
 const News = lazy(() => import('./components/News/News'));
 const Contactus = lazy(() => import('./components/Contactus/Contactus'));
+const Signupform = lazy(() => import('./components/Signupform/Signupform'));
 
 /**
  * Function component for the main App structure
@@ -33,6 +34,7 @@ function App() {
             <Route path="/Home" element={<Home />} />        // Route for the Home page
             <Route path="/News" element={<News />} />        // Route for the News page
             <Route path="/Contactus" element={<Contactus />} />  // Route for the Contact Us page
+            <Route path="/Signupform" element={<Signupform />} />  // Route for the Contact Us page
           </Routes>
         </div> 
       </Suspense>
