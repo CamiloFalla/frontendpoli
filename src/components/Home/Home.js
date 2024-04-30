@@ -21,7 +21,7 @@ function Home() {
         <Navbar />
         <div className='navbar-home-title'>
           <h1>Bienvenid@</h1>
-          <img src={logoips} className="logo-navbar" />
+          <img src={logoips} className="logo-navbar" alt=""/>
         </div>
       </div>
       

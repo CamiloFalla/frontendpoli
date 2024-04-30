@@ -5,13 +5,13 @@ import { Outlet } from 'react-router-dom';
 
 
 function Entry() {
-  const [email, setEmail] = useState(''); // Estado para guardar el email
-  const [password, setPassword] = useState(''); // Estado para guardar la contraseña
+  const [email, setEmail] = useState(''); 
+  const [password, setPassword] = useState(''); 
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
+    event.preventDefault(); 
     console.log('Email:', email, 'Password:', password);
-    // Aquí puedes añadir lógica para manejar la autenticación
+    
   };
 
   return (

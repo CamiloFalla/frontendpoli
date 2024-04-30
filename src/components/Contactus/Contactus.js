@@ -14,7 +14,7 @@ function Contactus() {
         <Navbar />
         <div className='navbar-home-title'>
           <h1>Contactan@s</h1>
-          <img src={logoips} className="logo-navbar" />
+          <img src={logoips} className="logo-navbar" alt="" />
         </div>
       </div>
       

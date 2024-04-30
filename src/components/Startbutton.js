@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Startbutton = () => {
     
-    let navigate = useNavigate(); //Hook para navegar
+    let navigate = useNavigate(); 
   
     return (
       <button onClick={() => navigate('Entry')} className="buttonStyle">
