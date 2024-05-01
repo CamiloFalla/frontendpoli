@@ -13,7 +13,7 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300; /* Un valor de peso elegido entre 300 y 700 */
+    font-weight: 300; 
     font-style: normal;
 }
 .mobile-menu {

@@ -17,7 +17,7 @@
 }
 
 svg {
-    width: 30px; /* Ajusta según necesites */
+    width: 30px; 
     height: auto;
-    fill: currentColor; /* Esto permite que el color del SVG se controle mediante 'color' en CSS */
+    fill: currentColor; 
 }

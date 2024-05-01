@@ -1,16 +1,15 @@
-/* PreviewMainfo.css */
 .diagonal-button {
-    width: 500px; /* Ajusta según necesidades */
-    height: 100px; /* Ajusta según necesidades */
+    width: 500px; 
+    height: 100px; 
     position: relative;
     overflow: hidden;
     background: none;
     cursor: pointer;
     display: flex;
-    border-radius: 8px; /* Bordes redondeados más suaves */
-    border: 2px solid #c9bebe; /* Borde visible con color específico */
-    padding: 0; /* Padding interno para separar contenido del borde */
-    box-sizing: border-box; /* Incluye el padding y el borde en el cálculo de width/height */
+    border-radius: 8px; 
+    border: 2px solid #c9bebe; 
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 .buttonpreview-content {
@@ -32,18 +31,18 @@
 .imagepreview-container {
     clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
     display: flex;
-    justify-content: flex-end; /* Alinea la imagen al final del contenedor (derecha) */
+    justify-content: flex-end; 
 }
 
 .text-container {
-    background: #fff; /* Fondo para el texto */
-    padding: 5px; /* Ajuste del espaciado interno para el texto */
+    background: #fff;
+    padding: 5px; 
     color: grey;
 }
 
 .image-container img {
-    width: auto;  /* Ajusta la imagen para mantener su aspecto */
+    width: auto; 
     height: 100%;
-    object-fit: cover; /* Asegura que la imagen cubra el área asignada sin deformarse */
+    object-fit: cover; 
 }
 
